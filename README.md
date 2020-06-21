@@ -5,6 +5,28 @@ And if human picture is given to our CNN model, it will identify it as human but
 will try to match a similar dog breed that closely matches the picture provided.
 The datasets of this project is provided by udacity
 
+# Datasets
+Download dog dataset at [Dog Dataset Download] (https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)
+
+Download human faces dataset at [Human Faces Dataset Download] (http://vis-www.cs.umass.edu/lfw/lfw.tgz)
+
+# Set up instructions
+
+1. Download project files
+
+```
+	git clone https://github.com/zainullahdev/dog-breed-classifier.git
+	cd dog-breed-classifier
+```
+
+2. Download datasets, extract and place in the project folder
+3. run notebook using this command
+```
+	jupyter notebook dog_app.ipynb
+```
+
+
+
 Optimizer: SGD
 Pre-Trained Model: Resnet50
 
@@ -16,3 +38,22 @@ Test Accuracy: 11%
 Custom Trained Model (with transfer learning): https://drive.google.com/file/d/12EK9OGBIPrHKDCKrXZDiMbMDyXbcohmC/view?usp=sharing
 
 Test Accuracy: 77%
+
+# Test Results
+
+Dog Image
+ 
+![alt text](https://raw.githubusercontent.com/zainullahdev/dog-breed-classifier/master/test_results/dog-image.png "Dog Image")
+
+
+Human Image
+ 
+![alt text](https://raw.githubusercontent.com/zainullahdev/dog-breed-classifier/master/test_results/human-image.png "Human Image")
+
+# important notes
+
+1. This project requires GPU to run
+2. datasets solely belong to Udacity
+
+
+
