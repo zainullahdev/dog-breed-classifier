@@ -6,9 +6,9 @@ will try to match a similar dog breed that closely matches the picture provided.
 The datasets of this project is provided by udacity
 
 # Datasets
-Download dog dataset at [Dog Dataset Download] (https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)
+Download dog dataset at [Dog Dataset Download](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)
 
-Download human faces dataset at [Human Faces Dataset Download] (http://vis-www.cs.umass.edu/lfw/lfw.tgz)
+Download human faces dataset at [Human Faces Dataset Download](http://vis-www.cs.umass.edu/lfw/lfw.tgz)
 
 # Set up instructions
 
@@ -28,6 +28,7 @@ Download human faces dataset at [Human Faces Dataset Download] (http://vis-www.c
 
 
 Optimizer: SGD
+
 Pre-Trained Model: Resnet50
 
 
@@ -50,7 +51,7 @@ Human Image
  
 ![alt text](https://raw.githubusercontent.com/zainullahdev/dog-breed-classifier/master/test_results/human-image.png "Human Image")
 
-# important notes
+# Important
 
 1. This project requires GPU to run
 2. datasets solely belong to Udacity
